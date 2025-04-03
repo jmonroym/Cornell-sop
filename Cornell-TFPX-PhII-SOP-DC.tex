@@ -111,12 +111,11 @@ The ``DEE'' is the mechanical structure supporting the silicon modules. It also 
     \end{itemize}
 \end{enumerate}
 %------------------------------------------------------------------
-
+\includegraphics[width=1\textwidth,angle = 0]{MCDiagram.png}
 \section{Procedure}
 \begin{paracol}{2} % Begin two-column layout  
 
 \subsubsection*{Person 1:}
-
 \begin{enumerate}
     %Perform a readiness check of the gantry:
 %    \begin{itemize}[leftmargin=*]
@@ -125,6 +124,7 @@ The ``DEE'' is the mechanical structure supporting the silicon modules. It also 
     \item Open LabView control software \\ \verb|C:\Users\co2_clt\Documents| \\ \verb|\Final_Dee_Assembly\Labview|\\ \verb| \FINAL_DEE_ASSEMBLY_MASTER.vi|\\ Make sure it is opened with Labview 2024.
     \item Open Motion composer
     \item Check that no other Gscript or Labview programs are running since they can interfere with the deposition.
+    \item Make sure that the NPAC is on, and make sure in Motion Composer the Gantry is connected (click the plug with a plus / the swirling arrows to reconnect) as shown in figure. The elongated circle should not show VH's (virtual home) but just H's (Home).
     \item Test presence of vacuum.        
     \item Identify parts. Handle with gloves, face mask. Check that the parts are in good condition.
     \item Assign a new unique DEE number(\texttt{D\_xxx}).
@@ -158,16 +158,22 @@ The ``DEE'' is the mechanical structure supporting the silicon modules. It also 
             \centering
             \includegraphics[width=0.45\linewidth]{img/NeedleRef.png}
             \includegraphics[width=0.45\linewidth]{img/NeedleRef2.png}
-            \caption{Needle stating position}
+            \caption{Needle starting position}
             \label{needleref}
         \end{figure}
         \item Begin epoxy deposition by hitting OK button in the front panel of LabView program. Check for consistent epoxy flow. When deposition ends on CCF\_A, gantry will move to starting point on CFF\_B.  
+        \item \textbf{Before aligning the gantry for CFF\_B, Hand over CFF\_A to Person 2, who will do the epoxy spreading.}
         \item Check that the needle tip is in the starting point for epoxy deposition. Adjust accordingly. 
         \item Begin epoxy deposition by hitting OK button in the front panel of LabView program. Check for consistent epoxy flow.
 %    \end{itemize}
     %Final DEE structure assembly.
 %    \begin{itemize}
-        \item Remove CFF\_B from Stand 2 and move it to working table on the left of the gantry. Bottom jig from stand 1 should already be on the table ready for stacking. 
+        \item Lay out some napkins that you will put CFF\_B on to the side of the Jig you placed on the table.
+        \item Remove CFF\_B from Stand 2 and move it to working table on the left of the gantry. Bottom jig from stand 1 should already be on the table ready for stacking.
+        \item Carefully slide the Dee off the CFF\_B jig by the sides of the Carbon fiber, making sure not to chip it. Place it on the napkins and inspect the bottom carbon fiber for smudges of epoxy. If any are present, wipe them off with small amounts of isopropyl alcohol and a microfiber cloth.
+        \item Check that the turquoise epoxy scraper is clean, bring it up to the gantry table.
+        \item Deposit epoxy from the Gantry's syringe onto the metal side of the scraper that will be scraping along the dee by pushing the pedal under the gantry table and moving the turqouise scraper as the epoxy deposits. Get enough to cover the scraper half an inch from the blades end across the scraper.
+        \item Carefully take the scraper back to the table where you left CFF\_B without dropping any epoxy (i.e. carry the scraper epoxy facing upwards). Then, when you are ready to scrape over CFF\_B, flip the scraper over and gently go over the entire Dee. If some gaps are left out, Re-deposit from the gantry and re-apply as needed. Ensure a smooth layer of epoxy on the Dee.
         \item Flip CFF\_B so that carbon foam face towards the floor.
         \item Use poles on bottom jig to stack CFF\_B on top of CFF\_A.
         \item stack top jig plate on top of CFF\_B. Make sure everything fits.
@@ -209,11 +215,11 @@ The ``DEE'' is the mechanical structure supporting the silicon modules. It also 
         \item \textbf{Communicate with Person 1 to start the LabView program to set a timer for the mixing process. Wait for confirmation.}       
         \item Add 24.5g of diamond powder and mix until a uniform grayish-green\\ consistency is achieved.
         \item Prepare the syringe, don't forget to put the blue tip cap before centrifuging. Transfer the mixed epoxy into the syringe, ensuring minimal loss.
-        \item Centrifuge the syringe for 30 seconds at 2000 RPM.
-        \item Ensure no bubbles remain inside the epoxy after centrifugation. If bubbles are present, repeat centrifugation. 
+        \item Centrifuge the syringe for 30 seconds at 2000 RPM. Click the green button to start and the up arrow until 2.0 shows for RPMS (2000RPM)
+        \item Ensure no bubbles remain inside the epoxy after centrifuging. If bubbles are present, repeat centrifuging. 
         \item Push the white plastic piston down into the syringe using a sharpie/pen, making sure that the trapped air is removed. 
         \item Take the Epoxy filled syringe to clean room. Pass it to Person 1.
-        \item get dressed to get into the clean room   
+        \item Get dressed to get into the clean room   
 %    \end{itemize}
     %Evaporator and inserts installation
 %    \begin{itemize}
