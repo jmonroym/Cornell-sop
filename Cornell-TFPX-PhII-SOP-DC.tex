@@ -111,12 +111,11 @@ The ``DEE'' is the mechanical structure supporting the silicon modules. It also 
     \end{itemize}
 \end{enumerate}
 %------------------------------------------------------------------
-
+\includegraphics[width=1\textwidth,angle = 0]{MCDiagram.png}
 \section{Procedure}
 \begin{paracol}{2} % Begin two-column layout  
 
 \subsubsection*{Person 1:}
-
 \begin{enumerate}
     %Perform a readiness check of the gantry:
 %    \begin{itemize}[leftmargin=*]
@@ -125,7 +124,8 @@ The ``DEE'' is the mechanical structure supporting the silicon modules. It also 
     \item Open LabView control software \\ \verb|C:\Users\co2_clt\Documents| \\ \verb|\Final_Dee_Assembly\Labview|\\ \verb| \FINAL_DEE_ASSEMBLY_MASTER.vi|\\ Make sure it is opened with Labview 2024.
     \item Open Motion composer
     \item Check that no other Gscript or Labview programs are running since they can interfere with the deposition.
-    \item Make sure that the NPAC is on, and make sure in Motion Composer the Gantry is connected (click the plug with a plus / the swirling arrows to reconnect)
+
+\item Make sure that the NPAC is on, and make sure in Motion Composer the Gantry is connected (click the plug with a plus / the swirling arrows to reconnect) as shown in figure. The elongated circle should not show VH's (virtual home) but just H's (Home).
     \item Test presence of vacuum.        
     \item Identify parts. Handle with gloves, face mask. Check that the parts are in good condition.
     \item Assign a new unique DEE number(\texttt{D\_xxx}).
