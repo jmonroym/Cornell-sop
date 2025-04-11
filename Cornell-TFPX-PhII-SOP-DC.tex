@@ -121,7 +121,9 @@ The ``DEE'' is the mechanical structure supporting the silicon modules. It also 
 %    \begin{itemize}[leftmargin=*]
     \item Check that the NPaq, power supplies, dispenser and vacuum pumps are\\turned on.
     \item Check compressed air lines are open
-    \item Open LabView control software \\ \verb|C:\Users\co2_clt\Documents| \\ \verb|\Final_Dee_Assembly\Labview|\\ \verb| \FINAL_DEE_ASSEMBLY_MASTER.vi|\\ Make sure it is opened with Labview 2024.
+    \item Open LabView control software \\ \verb|C:\Users\co2_clt\Documents| \\ \verb|\Final_Dee_Assembly\Labview|\\ \verb| \FINAL_DEE_ASSEMBLY_MASTER.vi|\\ AND
+    \verb|Dispense_when_stationary.vi|.  You will not run \verb|Dispense_when_stationary.vi|, just keep it open to ensure correct functionality of \verb|\FINAL_DEE_ASSEMBLY_MASTER.vi|.
+    Make sure it is opened with Labview 2024.
     \item Open Motion composer
     \item Check that no other Gscript or Labview programs are running since they can interfere with the deposition.
 
@@ -129,7 +131,7 @@ The ``DEE'' is the mechanical structure supporting the silicon modules. It also 
     \item Test presence of vacuum.        
     \item Identify parts. Handle with gloves, face mask. Check that the parts are in good condition.
     \item Assign a new unique DEE number(\texttt{D\_xxx}).
-    \item Run the control software and provide the information required:
+    \item Run the control software: \verb| \FINAL_DEE_ASSEMBLY_MASTER.vi| and provide the information required:
     \begin{enumerate}
         \item Part numbers.
         \item DEE identification.
@@ -162,10 +164,13 @@ The ``DEE'' is the mechanical structure supporting the silicon modules. It also 
             \caption{Needle starting position}
             \label{needleref}
         \end{figure}
-        \item Begin epoxy deposition by hitting OK button in the front panel of LabView program. Check for consistent epoxy flow. When deposition ends on CCF\_A, gantry will move to starting point on CFF\_B.  
+        \item Begin epoxy deposition by hitting OK button in the front panel of LabView program. Check for consistent epoxy flow. 
+        \item When deposition ends on CCF\_A, get up and check the deposition to make sure it's enough. If it's not enough, simply adjust the pressure to what you want to deposit ON TOP OF this deposition for CCF\_A and click the checkbox and OK. If it is enough, do not check the checkbox and just hit OK.
+        \item After continuing you will be prompted to repeat  gantry will move to starting point on CFF\_B.  
         \item \textbf{Before aligning the gantry for CFF\_B, Hand over CFF\_A to Person 2, who will do the epoxy spreading.}
         \item Check that the needle tip is in the starting point for epoxy deposition. Adjust accordingly. 
         \item Begin epoxy deposition by hitting OK button in the front panel of LabView program. Check for consistent epoxy flow.
+        \item When deposition ends on CCF\_B, get up and check the deposition to make sure it's enough. If it's not enough, simply adjust the pressure to what you want to deposit ON TOP OF this deposition for CCF\_B and click the checkbox and OK. If it is enough, do not check the checkbox and just hit OK.
 %    \end{itemize}
     %Final DEE structure assembly.
 %    \begin{itemize}
