@@ -1,0 +1,227 @@
+\documentclass[12pt]{cornelltfpxsop}
+\title{TIM Deposition: Deposit the Themal Interface Material on the DEE mechanical structure. }
+\date{June 11th, 2025}
+\author{J.Monroy,S.Hightower}
+\approved{Jose Monroy}
+
+\usepackage{paracol}
+\setlength{\columnseprule}{0.4pt}
+
+\sopid{TIM}
+\sopversion{v0}
+\sopabstract{Describes the procedures to deposit the thermal interfacce material (TIM) on the DEE faces, using the robotic gantry. The procedure takes place in the clean room.}
+
+
+
+\begin{document}
+
+\maketitle
+%------------------------------------------------------------------
+\section{Scope}
+This is a regular part in the integration process of the TFPX cartridge.
+
+%------------------------------------------------------------------
+\section{Purpose}
+The ``DEE'' is the mechanical structure supporting the silicon modules. It also provides cooling. TIM provides thermal contact between modules and carbon fiber surfaces, creating a thermal path for the heat to be removed.     
+
+%------------------------------------------------------------------
+\section{Definitions}
+\begin{center}
+\begin{figure}[h!]
+\includegraphics[width=0.7\textwidth]{img/Front_panel2.png}
+\caption{Front Panel of DEE\_ASSEMBLY\_MASTER.vi}
+\label{front_panel}
+\end{figure}
+\end{center}
+
+\begin{itemize}
+    \item Motion Composer: is a program that runs GCODE. GCODE is a set of instructions for the Gantry to move along. Think of a GCODE path like the path a paintbrush needs to be moved along to make a painting.
+    \item item 2
+    \item item  3
+\end{itemize}
+
+%------------------------------------------------------------------
+%\section{Responsibilities}
+
+%------------------------------------------------------------------
+\section{Equipment}
+\begin{center}
+\begin{figure}[h!]
+\includegraphics[width=0.8\textwidth]{img/gantryEpoxyLabeled.png}
+\caption{Gantry setup. Labels indicate the main parts of the setup.}
+\label{gantry_setup}
+\end{figure}
+\end{center}
+
+\begin{enumerate}
+
+\item Gantry (check that everything (labeled in the figure  \ref{gantry_setup}) is installed and working properly. 
+    \begin{itemize}
+        \item Syringe holder (may be different from current picture) 
+        \item Stands with alignment screws
+        \item Pressurised air Dispenser - Ultimus II
+        \item Vacuum manifold and lines.
+        \item Gantry head camera with light
+    \end{itemize}
+\item Parts and tools
+\begin{center}
+\begin{figure}[h]
+\includegraphics[width=0.45\textwidth,angle = 0]{img/PartsTools_1.png}
+\includegraphics[width=0.45\textwidth,angle = 0]{img/PartsTools_2.png}\\
+\includegraphics[width=0.45\textwidth,angle = 0]{img/centrifuge_TFPX.png}
+\caption{Parts and tools used in the DEE manufacturing process. Materials listed for epoxy preparation should be located on the table inside room PSB 375 where the epoxy mixing will be performed; the rest of materials must be located on the table in front of the gantry except for evaporator, inserts and tweezers which should be located on the table left to the gantry.}
+\label{Parts ands tools}
+\end{figure}
+\end{center}
+    \begin{itemize}
+        \item DEE 
+        \item Tweezers
+        \item Stands with poles
+        \item next item
+    \end{itemize}
+\item TIM preparation \textbf{(Performed in PSB 375)}
+    \begin{itemize}
+        \item Bag of 12-20 Micron Diamond Powder
+        \item Moresco grease
+        \item Digital Scale
+        \item Large Centrifuge with Counterweights Installed
+        \item Paper Towels
+        \item Isopropyl Alcohol
+        \item Rubber beakers
+        \item Silicone Gloves
+        \item N95 Mask
+        \item Extension cord
+        \item Square plastic sheet
+        \item Box Fan
+        \item Mylar Plastic sheet
+        \item Painter's Tape
+        \item item xxxx
+    \end{itemize}
+\end{enumerate}
+%------------------------------------------------------------------
+\includegraphics[width=1\textwidth,angle = 0]{img/MCDiagram.png}
+\section{Procedure}
+\begin{paracol}{2} % Begin two-column layout  
+
+\subsubsection*{Person 1:}
+\begin{enumerate}
+    %Perform a readiness check of the gantry:
+%    \begin{itemize}[leftmargin=*]
+    \item Check that the NPaq, power supplies, dispenser and vacuum pumps are\\turned on.
+    \item Check compressed air lines are open
+    \item Open LabView control software \\ \verb|C:\Users\co2_clt\Documents| \\ \verb|\Final_Dee_Assembly\Labview|\\ \verb| \FINAL_DEE_ASSEMBLY_MASTER.vi|\\ AND
+    \verb|Dispense_when_stationary.vi|.  You will not run \verb|Dispense_when_stationary.vi|, just keep it open to ensure correct functionality of \verb|\FINAL_DEE_ASSEMBLY_MASTER.vi|.
+    Make sure it is opened with Labview 2024.
+    \item Open Motion composer
+    \item Check that no other Gscript or Labview programs are running since they can interfere with the deposition.
+
+\item Make sure that the NPAC is on, and make sure in Motion Composer the Gantry is connected (click the plug with a plus / the swirling arrows to reconnect) as shown in figure. The elongated circle should not show VH's (virtual home) but just H's (Home).
+    \item Test presence of vacuum.        
+    \item Identify parts. Handle with gloves, face mask. Check that the parts are in good condition.
+    \item Assign a new unique DEE number(\texttt{D\_xxx}).
+    \item Run the control software: \verb| \FINAL_DEE_ASSEMBLY_MASTER.vi| and provide the information required:
+    \begin{enumerate}
+        \item Part numbers.
+        \item DEE identification.
+        \item other required info
+    \end{enumerate}
+ %   \end{itemize}
+
+    %Gantry Loading, calibration and epoxy deposition
+%    \begin{itemize}[leftmargin=*]
+
+        \item Check that the needle tip is in the starting point for epoxy deposition. Adjust accordingly. 
+        \item Begin epoxy deposition by hitting OK button in the front panel of LabView program. Check for consistent epoxy flow.
+        \item When deposition ends on CCF\_B, get up and check the deposition to make sure it's enough. If it's not enough, simply adjust the pressure to what you want to deposit ON TOP OF this deposition for CCF\_B and click the checkbox and OK. If it is enough, do not check the checkbox and just hit OK.
+%    \end{itemize}
+    %Final DEE structure assembly.
+%    \begin{itemize}
+        \item Lay out some napkins that you will put CFF\_B on to the side of the Jig you placed on the table.
+        \item Remove CFF\_B from Stand 2 and move it to working table on the left of the gantry. Bottom jig from stand 1 should already be on the table ready for stacking.
+        \item Carefully slide the Dee off the CFF\_B jig by the sides of the Carbon fiber, making sure not to chip it. Place it on the napkins and inspect the bottom carbon fiber for smudges of epoxy. If any are present, wipe them off with small amounts of isopropyl alcohol and a microfiber cloth.
+        \item Check that the turquoise epoxy scraper is clean, bring it up to the gantry table.
+        \item Deposit epoxy from the Gantry's syringe onto the metal side of the scraper that will be scraping along the dee by pushing the pedal under the gantry table and moving the turqouise scraper as the epoxy deposits. Get enough to cover the scraper half an inch from the blades end across the scraper.
+        \item Carefully take the scraper back to the table where you left CFF\_B without dropping any epoxy (i.e. carry the scraper epoxy facing upwards). Then, when you are ready to scrape over CFF\_B, flip the scraper over and gently go over the entire Dee. If some gaps are left out, Re-deposit from the gantry and re-apply as needed. Ensure a smooth layer of epoxy on the Dee.
+        \item Flip CFF\_B so that carbon foam face towards the floor.
+        \item Use poles on bottom jig to stack CFF\_B on top of CFF\_A.
+        \item stack top jig plate on top of CFF\_B. Make sure everything fits.
+        \item Take the full stack into the oven; turn on the oven and let bake for 2 hours @ 50C, with 4h cooling. Follow instructions fixed on the oven door as shown in the figure \ref{oven}. 
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.9\linewidth, angle=-90]{img/oven.JPG}
+            \caption{Oven for curing DEE after assembly}
+            \label{oven}
+        \end{figure}
+        \item Clean up the working space.
+%    \end{itemize}
+\end{enumerate}
+\switchcolumn % Switch to the second column     
+\subsubsection*{Person 2:}
+\begin{enumerate}
+    %Perform a readiness check of epoxy \\preparation area:
+%   \begin{itemize}[leftmargin=*]
+        \item Ventilate the room with the fan
+        \item Put on N95 mask and gloves. Lay out paper towels over the table.
+        \item Materials are on the table.
+        \item Turn scale on
+        \item Check that centrifuge is ready to use.        
+%    \end{itemize}      
+    %\item Epoxy Mixing and Syringe Preparation
+%    \begin{itemize}[leftmargin=*]
+        \item Determine the amount of epoxy to be prepared using table in figure \ref{fig:epoxy_calc}.
+        A calculator has been set up \href{https://cornellprod.sharepoint.com/:x:/r/sites/TFPXDeemanufacturing/_layouts/15/Doc.aspx?sourcedoc=%7B1955F9BA-B34C-40AF-83B5-E2F571FD91B1%7D&file=Epoxy%20mixing%20calculator.xlsx&action=default&mobileredirect=true}{here} in case a different amount of epoxy is desired. 35g of epoxy is used as reference in the following.
+            \begin{center}
+            \begin{figure}[h!]
+                \centering
+                \includegraphics[width=0.8\linewidth]{img/epoxy_calc.png}
+                \caption{Epoxy calculator table}
+                \label{fig:epoxy_calc}
+            \end{figure}
+        \end{center}
+        \item Place the beaker on the scale and zero the scale. Add 18.5 of Part A using one side of the Popsicle stick.
+        \item Zero the scale again. Add 5.5 of Part B using the other side of the stick.
+        \item \textbf{Communicate with Person 1 to start the LabView program to set a timer for the mixing process. Wait for confirmation.}       
+        \item Add 56g of diamond powder and mix until a uniform grayish-green\\ consistency is achieved.
+        \item Prepare the syringe, don't forget to put the blue tip cap before centrifuging. Transfer the mixed epoxy into the syringe, ensuring minimal loss.
+        \item Centrifuge the syringe for 30 seconds at 2000 RPM. Click the green button to start and the up arrow until 2.0 shows for RPMS (2000RPM)
+        \item Ensure no bubbles remain inside the epoxy after centrifuging. If bubbles are present, repeat centrifuging. 
+        \item Push the white plastic piston down into the syringe using a sharpie/pen, making sure that the trapped air is removed. 
+        \item Take the Epoxy filled syringe to clean room. Pass it to Person 1.
+        \item Get dressed to get into the clean room   
+%    \end{itemize}
+    %Evaporator and inserts installation
+%    \begin{itemize}
+        \item Prepare inserts and Evaporator.
+        \item Once the epoxy deposition on stand 2 starts, move bottom jig from stand 1 to working table on the left of gantry. 
+        \item Take inserts and stick them on the  CFF\_A carbon foam holes using the tweezers or popsicle sticks to press in. Be careful not to break/damage the carbon foam, although some small reshaping of the edges is acceptable as long as the fit is snug.
+        \item Insert the evaporator into the groove making sure that it fits. Push with gently with fingers.
+        \item Spread plain epoxy over the top surface of the PEEK periphery using the paint brush, so that when CFF\_B is stacked, the carbon fiber sticks to the periphery.  
+        \item Prepare top jig plate to complete the full stack.
+        \item Clean up the working space.
+%    \end{itemize}
+\switchcolumn % Switch back to Person 1's tasks:                                           
+\end{enumerate}
+\end{paracol}
+
+%------------------------------------------------------------------
+\section{Documentation}
+
+Any special observations, e.g. damage to parts not already recorded during visual inspection, deviations from normal procedures, should be added to the report in the last step of the routine in the comments pop-up window 
+
+The following information is recorded in the report generated by the gluing software:
+\begin{itemize}
+    \item Date, time (start--end) and operator name
+    \item LabView and GScript software: version 
+    \item Id of parts used:
+	\begin{itemize}
+	    \item Carbon fiber-foam: S/N
+	    \item DEE ID
+	    \item Epoxy information
+	\end{itemize}
+    \item observations/comments
+\end{itemize}
+
+Find the report at \\ \verb| C:\Users\co2_ctl\Documents\Final_Dee_Assembly\Dee_Assy_Reports\Report.xls|.\\ Write an ELog entry and upload the report to it and to the appropriate DataBase.  
+
+\end{document}
+
