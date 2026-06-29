@@ -1,0 +1,718 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  26 APR 2026 14:59
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/alexdaoud/Documents/Dee_Construction_SOP_V3/Cornell-TFPX-PhII-SOP-DC-V3.tex
+(/Users/alexdaoud/Documents/Dee_Construction_SOP_V3/Cornell-TFPX-PhII-SOP-DC-V3.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(./cornelltfpxsop.cls
+Document Class: cornelltfpxsop 2024/09/10 v0.0 Modified article class for standard operating procedures in Cornell Integration Lab
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count196
+\c@section=\count197
+\c@subsection=\count198
+\c@subsubsection=\count199
+\c@paragraph=\count266
+\c@subparagraph=\count267
+\c@figure=\count268
+\c@table=\count269
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count270
+\Gm@cntv=\count271
+\c@Gm@tempcnt=\count272
+\Gm@bindingoffset=\dimen142
+\Gm@wd@mp=\dimen143
+\Gm@odd@mp=\dimen144
+\Gm@even@mp=\dimen145
+\Gm@layoutwidth=\dimen146
+\Gm@layoutheight=\dimen147
+\Gm@layouthoffset=\dimen148
+\Gm@layoutvoffset=\dimen149
+\Gm@dimlist=\toks20
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box52
+\beforetitleunit=\skip51
+\aftertitleunit=\skip52
+\ttl@plus=\dimen150
+\ttl@minus=\dimen151
+\ttl@toksa=\toks21
+\titlewidth=\dimen152
+\titlewidthlast=\dimen153
+\titlewidthfirst=\dimen154
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen155
+\Gin@req@width=\dimen156
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 51.
+\cftparskip=\skip53
+\cftbeforetoctitleskip=\skip54
+\cftaftertoctitleskip=\skip55
+\cftbeforepartskip=\skip56
+\cftpartnumwidth=\skip57
+\cftpartindent=\skip58
+\cftbeforesecskip=\skip59
+\cftsecindent=\skip60
+\cftsecnumwidth=\skip61
+\cftbeforesubsecskip=\skip62
+\cftsubsecindent=\skip63
+\cftsubsecnumwidth=\skip64
+\cftbeforesubsubsecskip=\skip65
+\cftsubsubsecindent=\skip66
+\cftsubsubsecnumwidth=\skip67
+\cftbeforeparaskip=\skip68
+\cftparaindent=\skip69
+\cftparanumwidth=\skip70
+\cftbeforesubparaskip=\skip71
+\cftsubparaindent=\skip72
+\cftsubparanumwidth=\skip73
+\cftbeforeloftitleskip=\skip74
+\cftafterloftitleskip=\skip75
+\cftbeforefigskip=\skip76
+\cftfigindent=\skip77
+\cftfignumwidth=\skip78
+\c@lofdepth=\count273
+\c@lotdepth=\count274
+\cftbeforelottitleskip=\skip79
+\cftafterlottitleskip=\skip80
+\cftbeforetabskip=\skip81
+\cfttabindent=\skip82
+\cfttabnumwidth=\skip83
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count275
+\float@exts=\toks22
+\float@box=\box53
+\@float@everytoks=\toks23
+\@floatcapt=\box54
+)
+\@float@every@table=\toks24
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/titling/titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip84
+\thanksmargin=\skip85
+\droptitle=\skip86
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip87
+\multirow@cntb=\count276
+\multirow@dima=\skip88
+\bigstrutjot=\dimen157
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen158
+\lightrulewidth=\dimen159
+\cmidrulewidth=\dimen160
+\belowrulesep=\dimen161
+\belowbottomsep=\dimen162
+\aboverulesep=\dimen163
+\abovetopsep=\dimen164
+\cmidrulesep=\dimen165
+\cmidrulekern=\dimen166
+\defaultaddspace=\dimen167
+\@cmidla=\count277
+\@cmidlb=\count278
+\@aboverulesep=\dimen168
+\@belowrulesep=\dimen169
+\@thisruleclass=\count279
+\@lastruleclass=\count280
+\@thisrulewidth=\dimen170
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2025/01/27 v2.1e lastpage: 2.09 or 2e? (HMM)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/lastpage/lastpage2e.sty
+Package: lastpage2e 2025/01/27 v2.1e Decide which 2e lastpage version to use (HMM)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
+Package: lastpagemodern 2025-01-27 v2.1e Refers to last page's name (HMM; JPG)
+\c@lastpagecount=\count281
+) 
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+\f@nch@headwidth=\skip89
+\f@nch@offset@elh=\skip90
+\f@nch@offset@erh=\skip91
+\f@nch@offset@olh=\skip92
+\f@nch@offset@orh=\skip93
+\f@nch@offset@elf=\skip94
+\f@nch@offset@erf=\skip95
+\f@nch@offset@olf=\skip96
+\f@nch@offset@orf=\skip97
+\f@nch@height=\skip98
+\f@nch@footalignment=\skip99
+\f@nch@widthL=\skip100
+\f@nch@widthC=\skip101
+\f@nch@widthR=\skip102
+\@temptokenb=\toks25
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip103
+\enit@outerparindent=\dimen171
+\enit@toks=\toks26
+\enit@inbox=\box55
+\enit@count@id=\count282
+\enitdp@description=\count283
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count284
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count285
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen172
+\Hy@linkcounter=\count286
+\Hy@pagecounter=\count287
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count288
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count289
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen173
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count290
+\Field@Width=\dimen174
+\Fld@charsize=\dimen175
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count291
+\c@Item=\count292
+\c@Hfootnote=\count293
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count294
+\c@bookmark@seq@number=\count295
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip104
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen176
+\captionmargin=\dimen177
+\caption@leftmargin=\dimen178
+\caption@rightmargin=\dimen179
+\caption@width=\dimen180
+\caption@indent=\dimen181
+\caption@parindent=\dimen182
+\caption@hangindent=\dimen183
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count296
+\c@continuedfloat=\count297
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count298
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count299
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/paracol/paracol.sty
+Package: paracol 2024/10/22 1.36 typeset columns in parallel
+\pcol@currcol=\count300
+\pcol@nextcol=\count301
+\pcol@ncol=\count302
+\pcol@ncolleft=\count303
+\pcol@page=\count304
+\pcol@basepage=\count305
+\pcol@toppage=\count306
+\pcol@footnotebase=\count307
+\pcol@nfootnotes=\count308
+\pcol@mcid=\count309
+\pcol@prevdepth=\dimen184
+\pcol@colht=\dimen185
+\pcol@textfloatsep=\dimen186
+\pcol@lrmargin=\dimen187
+\pagerim=\dimen188
+\pcol@topskip=\skip105
+\belowfootnoteskip=\skip106
+\pcol@topfnotes=\box56
+\pcol@prespan=\box57
+\pcol@rightpage=\box58
+\pcol@colorstack@saved=\box59
+\pcol@tempboxa=\box60
+\pcol@tempboxb=\box61
+\pcol@colorins=\insert252
+\pcol@everyvbox=\toks27
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count310
+\l__pdf_internal_box=\box62
+) (./Cornell-TFPX-PhII-SOP-DC-V3.aux)
+\openout1 = `Cornell-TFPX-PhII-SOP-DC-V3.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count311
+\scratchdimen=\dimen189
+\scratchbox=\box63
+\nofMPsegments=\count312
+\nofMParguments=\count313
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count314
+\MPscratchDim=\dimen190
+\MPnumerator=\count315
+\makeMPintoPDFobject=\count316
+\everyMPtoPDFconversion=\toks29
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package hyperref Info: Link coloring OFF on input line 18.
+ (./Cornell-TFPX-PhII-SOP-DC-V3.out) (./Cornell-TFPX-PhII-SOP-DC-V3.out)
+\@outlinefile=\write3
+\openout3 = `Cornell-TFPX-PhII-SOP-DC-V3.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 22.
+<CornellTFPXLogo.png, id=28, 506.766pt x 542.025pt>
+File: CornellTFPXLogo.png Graphic file (type png)
+<use CornellTFPXLogo.png>
+Package pdftex.def Info: CornellTFPXLogo.png  used on input line 22.
+(pdftex.def)             Requested size: 56.9055pt x 60.86353pt.
+
+Overfull \vbox (21.71361pt too high) detected at line 22
+ []
+
+
+Overfull \hbox (7.62817pt too wide) in paragraph at lines 22--22
+[]| [] 
+ []
+
+(./Cornell-TFPX-PhII-SOP-DC-V3.toc)
+\tf@toc=\write4
+\openout4 = `Cornell-TFPX-PhII-SOP-DC-V3.toc'.
+
+
+
+[1
+
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./CornellTFPXLogo.png>]
+<img2/FrontPanel.png, id=47, 571.13374pt x 211.79124pt>
+File: img2/FrontPanel.png Graphic file (type png)
+<use img2/FrontPanel.png>
+Package pdftex.def Info: img2/FrontPanel.png  used on input line 33.
+(pdftex.def)             Requested size: 469.75502pt x 174.1967pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 29.79996pt, for example:
+(fancyhdr)                \setlength{\headheight}{29.79996pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-17.79996pt}.
+
+[2{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./img2/FrontPanel.png>]
+<img2/Gantrysetup.png, id=56, 244.915pt x 314.17375pt>
+File: img2/Gantrysetup.png Graphic file (type png)
+<use img2/Gantrysetup.png>
+Package pdftex.def Info: img2/Gantrysetup.png  used on input line 58.
+(pdftex.def)             Requested size: 211.38832pt x 271.17169pt.
+<img2/syringe_holder2.png, id=57, 272.01625pt x 363.3575pt>
+File: img2/syringe_holder2.png Graphic file (type png)
+<use img2/syringe_holder2.png>
+Package pdftex.def Info: img2/syringe_holder2.png  used on input line 65.
+(pdftex.def)             Requested size: 211.38832pt x 282.38644pt.
+<img2/DEEs.png, id=60, 5733.42pt x 3136.71875pt>
+File: img2/DEEs.png Graphic file (type png)
+<use img2/DEEs.png>
+Package pdftex.def Info: img2/DEEs.png  used on input line 87.
+(pdftex.def)             Requested size: 211.38832pt x 115.63559pt.
+<img/PartsTools_2.png, id=61, 617.142pt x 463.623pt>
+File: img/PartsTools_2.png Graphic file (type png)
+<use img/PartsTools_2.png>
+Package pdftex.def Info: img/PartsTools_2.png  used on input line 88.
+(pdftex.def)             Requested size: 211.38832pt x 158.80406pt.
+<img2/Centrifuge.png, id=62, 5733.42pt x 4300.065pt>
+File: img2/Centrifuge.png Graphic file (type png)
+<use img2/Centrifuge.png>
+Package pdftex.def Info: img2/Centrifuge.png  used on input line 89.
+(pdftex.def)             Requested size: 211.38832pt x 158.5225pt.
+<img2/needle_tips.png, id=63, 780.9175pt x 461.725pt>
+File: img2/needle_tips.png Graphic file (type png)
+<use img2/needle_tips.png>
+Package pdftex.def Info: img2/needle_tips.png  used on input line 90.
+(pdftex.def)             Requested size: 211.38832pt x 124.98445pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 29.79996pt, for example:
+(fancyhdr)                \setlength{\headheight}{29.79996pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-17.79996pt}.
+
+[3 <./img2/Gantrysetup.png> <./img2/syringe_holder2.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 29.79996pt, for example:
+(fancyhdr)                \setlength{\headheight}{29.79996pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-17.79996pt}.
+
+[4 <./img2/DEEs.png> <./img/PartsTools_2.png> <./img2/Centrifuge.png> <./img2/needle_tips.png>]
+<img2/motioncomposer.png, id=84, 569.12625pt x 163.61125pt>
+File: img2/motioncomposer.png Graphic file (type png)
+<use img2/motioncomposer.png>
+Package pdftex.def Info: img2/motioncomposer.png  used on input line 137.
+(pdftex.def)             Requested size: 469.75502pt x 135.05083pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (32.43758pt too wide) in paragraph at lines 149--151
+[]\OT1/cmr/m/n/12 Open Lab-View con-trol soft-ware [][]\OT1/cmtt/m/n/12 C:\Users\co2_clt\Documents []\MASTER_DEE_Construction 
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 29.79996pt, for example:
+(fancyhdr)                \setlength{\headheight}{29.79996pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-17.79996pt}.
+
+[5]
+<img2/jig_alignment2.png, id=96, 481.8pt x 361.35pt>
+File: img2/jig_alignment2.png Graphic file (type png)
+<use img2/jig_alignment2.png>
+Package pdftex.def Info: img2/jig_alignment2.png  used on input line 171.
+(pdftex.def)             Requested size: 187.89914pt x 140.92041pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 29.79996pt, for example:
+(fancyhdr)                \setlength{\headheight}{29.79996pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-17.79996pt}.
+
+[6 <./img2/motioncomposer.png>]
+<img2/Magnets2.png, id=119, 376.40625pt x 499.8675pt>
+File: img2/Magnets2.png Graphic file (type png)
+<use img2/Magnets2.png>
+Package pdftex.def Info: img2/Magnets2.png  used on input line 180.
+(pdftex.def)             Requested size: 187.89914pt x 249.5365pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 29.79996pt, for example:
+(fancyhdr)                \setlength{\headheight}{29.79996pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-17.79996pt}.
+
+[7 <./img2/jig_alignment2.png> <./img2/Magnets2.png>]
+<img2/FPATstart1.png, id=134, 4047.12pt x 3035.34pt>
+File: img2/FPATstart1.png Graphic file (type png)
+<use img2/FPATstart1.png>
+Package pdftex.def Info: img2/FPATstart1.png  used on input line 195.
+(pdftex.def)             Requested size: 211.38832pt x 158.53795pt.
+<img2/FPATstart2.png, id=135, 3461.93375pt x 2596.70125pt>
+File: img2/FPATstart2.png Graphic file (type png)
+<use img2/FPATstart2.png>
+Package pdftex.def Info: img2/FPATstart2.png  used on input line 196.
+(pdftex.def)             Requested size: 211.38832pt x 158.5293pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 29.79996pt, for example:
+(fancyhdr)                \setlength{\headheight}{29.79996pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-17.79996pt}.
+
+[8 <./img2/FPATstart1.png> <./img2/FPATstart2.png>]
+<img2/Epoxy_fillings.png, id=151, 472.76625pt x 336.25626pt>
+File: img2/Epoxy_fillings.png Graphic file (type png)
+<use img2/Epoxy_fillings.png>
+Package pdftex.def Info: img2/Epoxy_fillings.png  used on input line 205.
+(pdftex.def)             Requested size: 469.75502pt x 334.12099pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 29.79996pt, for example:
+(fancyhdr)                \setlength{\headheight}{29.79996pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-17.79996pt}.
+
+[9 <./img2/Epoxy_fillings.png>]
+<img/oven.JPG, id=163, 971.3088pt x 728.4816pt>
+File: img/oven.JPG Graphic file (type jpg)
+<use img/oven.JPG>
+Package pdftex.def Info: img/oven.JPG  used on input line 226.
+(pdftex.def)             Requested size: 187.89914pt x 140.9251pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 29.79996pt, for example:
+(fancyhdr)                \setlength{\headheight}{29.79996pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-17.79996pt}.
+
+[10]
+<img/epoxy_calc.png, id=185, 531.9875pt x 279.0425pt>
+File: img/epoxy_calc.png Graphic file (type png)
+<use img/epoxy_calc.png>
+Package pdftex.def Info: img/epoxy_calc.png  used on input line 250.
+(pdftex.def)             Requested size: 375.80544pt x 197.12521pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 29.79996pt, for example:
+(fancyhdr)                \setlength{\headheight}{29.79996pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-17.79996pt}.
+
+[11 <./img/oven.JPG>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 29.79996pt, for example:
+(fancyhdr)                \setlength{\headheight}{29.79996pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-17.79996pt}.
+
+[12 <./img/epoxy_calc.png>]
+<img2/FPAT_Cover.png, id=218, 4300.065pt x 5733.42pt>
+File: img2/FPAT_Cover.png Graphic file (type png)
+<use img2/FPAT_Cover.png>
+Package pdftex.def Info: img2/FPAT_Cover.png  used on input line 279.
+(pdftex.def)             Requested size: 4300.05458pt x 5733.4061pt.
+<img2/pressingpieces.png, id=219, 4296.05pt x 3152.77875pt>
+File: img2/pressingpieces.png Graphic file (type png)
+<use img2/pressingpieces.png>
+Package pdftex.def Info: img2/pressingpieces.png  used on input line 289.
+(pdftex.def)             Requested size: 187.89914pt x 137.87599pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 29.79996pt, for example:
+(fancyhdr)                \setlength{\headheight}{29.79996pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-17.79996pt}.
+
+[13 <./img2/FPAT_Cover.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 29.79996pt, for example:
+(fancyhdr)                \setlength{\headheight}{29.79996pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-17.79996pt}.
+
+[14 <./img2/pressingpieces.png>] 
+enddocument/afterlastpage (AED): lastpage setting LastPage.
+(./Cornell-TFPX-PhII-SOP-DC-V3.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+Package rerunfilecheck Info: File `Cornell-TFPX-PhII-SOP-DC-V3.out' has not changed.
+(rerunfilecheck)             Checksum: 9837B6BEF74C5D0648DF4C01ADDB2D7F;528.
+ ) 
+Here is how much of TeX's memory you used:
+ 12862 strings out of 473190
+ 210022 string characters out of 5715801
+ 631169 words of memory out of 5000000
+ 35858 multiletter control sequences out of 15000+600000
+ 564254 words of font info for 54 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 90i,17n,93p,628b,716s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on Cornell-TFPX-PhII-SOP-DC-V3.pdf (14 pages, 70434229 bytes).
+PDF statistics:
+ 319 PDF objects out of 1000 (max. 8388607)
+ 244 compressed objects within 3 object streams
+ 114 named destinations out of 1000 (max. 500000)
+ 139 words of extra memory for PDF output out of 10000 (max. 10000000)
+
