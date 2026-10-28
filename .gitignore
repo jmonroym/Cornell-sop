@@ -1,0 +1,9 @@
+# Local DEE Construction build outputs (keep the current PDF tracked).
+/.local-builds/dee-construction/
+/Cornell-TFPX-PhII-SOP-DC-*.aux
+/Cornell-TFPX-PhII-SOP-DC-*.fdb_latexmk
+/Cornell-TFPX-PhII-SOP-DC-*.fls
+/Cornell-TFPX-PhII-SOP-DC-*.log
+/Cornell-TFPX-PhII-SOP-DC-*.out
+/Cornell-TFPX-PhII-SOP-DC-*.synctex.gz
+/Cornell-TFPX-PhII-SOP-DC-*.toc
