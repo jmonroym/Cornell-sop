@@ -2,6 +2,8 @@
 
 Cornell TFPX repository 
 
+The current DEE Construction SOP is [V5](Cornell-TFPX-PhII-SOP-DC-V5.pdf); [V3 and V4](archive/dee-construction/) are archived for reference.
+
 ## Cloning the repository
 
 To contribute development, fork this repository on GitHub and then clone from your own fork:
